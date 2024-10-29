@@ -1,0 +1,156 @@
+.amz-single-meta {
+	background:#FFF;
+	border: #DDD solid 1px !important;
+	border-top: #3baeda solid 5px !important;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	line-height:20px;
+	text-align: center;
+	margin-top: 6px;
+	margin-bottom: 12px;
+	padding: 4px;
+}
+.amz-single-meta .amz-title {
+	font-size: 125% !important;
+}
+.amz-single-meta hr {
+	padding: 0;
+	margin: 0;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	width: 100%;
+}
+.amz-single-meta p {
+	margin-bottom: 0px;
+	font-size: inherit;
+}
+.amz-single-meta ul {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.amz-single-meta .buybutton a{
+	font-size: 12px !important;
+	font-weight:bold !important;
+	text-transform:uppercase !important;
+}
+.bbright {
+	background: #FC0 !important;
+	background: -moz-linear-gradient(top, #0CF 5%, #09F 100%) !important;
+	background: -ms-linear-gradient(top, #0CF 5%, #09F 100%) !important;
+	background: -webkit-linear-gradient(top, #0CF 5%, #09F 100%) !important;
+	border: 1px solid #06F !important;
+	color: #FFF !important;
+}
+.bbright:hover {
+	background: #09F !important;
+	background: -moz-linear-gradient(top, #09F 5%, #0CF 100%) !important;
+	background: -ms-linear-gradient(top, #09F 5%, #0CF 100%) !important;
+	background: -webkit-linear-gradient(top, #09F 5%, #0CF 100%) !important;
+}
+.button {
+	background: #FC0;
+	background: -moz-linear-gradient(top, #FC0 5%, #F90 100%);
+	background: -ms-linear-gradient(top, #FC0 5%, #F90 100%);
+	background: -webkit-linear-gradient(top, #FC0 5%, #F90 100%);
+	border: 1px solid #F60;
+	border-radius: 6px;
+	color: #000 !important;
+	display: inline-block;
+	padding: 6px 12px;
+	text-decoration: none;
+	text-shadow: 0 0 0 #ffffff;
+}
+.button:hover {
+	background: #F90;
+	background: -moz-linear-gradient(center top, #F90 5%, #FC0 100%);
+	background: -ms-linear-gradient(top, #F90 5%, #FC0 100%);
+	background: -webkit-linear-gradient(top, #F90 5%, #FC0 100%);
+}
+.proscons{
+	box-sizing: border-box;
+	display: table;
+	margin: auto;
+	width:100%;
+	margin-bottom:10px;
+}
+.proscons div{
+	display: table-row;
+}
+.proscons div div{
+	display: table-cell;
+	vertical-align: top;
+	padding: 1px;
+}
+.proscons div div div{
+	display:table-row;
+	vertical-align: top;
+	padding: 1px;
+}
+.bottom-buybox {
+	background-color: #fff;
+	/*border: #CCC solid 1px;*/
+	box-sizing: border-box;
+	display: table;
+	margin: auto;
+	width: 100%;
+}
+.bottom-buybox div {
+	display: table-row;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bottom-buybox div div {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.bottom-buybox .buy-button {
+	width: 100px;
+	display: inline-block;
+	position: relative;
+	background: #06F;
+	line-height: 12px;
+}
+.bottom-buybox .buy-button a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-stretch: condensed;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+.buybutton{padding-left:8px; padding-right:8px;}
+.wrevwidget{
+	list-style:none !important;
+	border:#CCC solid 1px;
+	border-left:#EEE solid 1px;
+	border-top:#EEE solid 1px;
+	border-radius:4px;
+	padding:2px !important;
+	color:#000;
+}
+.wrevwidget:hover{
+	border:#CCC solid 1px;
+	padding:2px !important;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01),  rgba(0, 0, 0, 0.09));
+	color:#666;
+}
+.wrevwidget a{color:#111 !important;}
+.wrevwidget a:hover{color:#666 !important;}
+.wrevtitle {
+	font-size: 90%;
+}
+.specs-left{
+	width:49%; float:left; text-align:right; font-weight:bold; margin-left:0 !important; padding-left:0 !important;
+}
+.specs-right{
+	width:49%; float:right; text-align:left; margin-left:0 !important; padding-left:0 !important;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
